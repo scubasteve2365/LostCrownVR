@@ -1,0 +1,30 @@
+Prince of Persia: The Lost Crown VR includes these parts. Their licences are in the licences folder.
+
+OpenXR loader 1.1.65 (Khronos Group), unmodified
+  https://github.com/KhronosGroup/OpenXR-SDK-Source
+  Apache-2.0.
+
+MinHook (Tsuda Kageyu), compiled into LostCrownVRNative.dll
+  https://github.com/TsudaKageyu/minhook
+  BSD 2-Clause. Includes Hacker Disassembler Engine 64 (Vyacheslav Patkov), BSD 2-Clause.
+
+Dear ImGui 1.93.0 (Omar Cornut), compiled into LostCrownVRNative.dll, draws the settings menu
+  https://github.com/ocornut/imgui
+  MIT.
+
+Font, unmodified
+  Jost (Owen Earl, indestructible type*)
+  https://fonts.google.com/specimen/Jost
+  SIL Open Font License 1.1.
+
+Code from the same author's earlier mods (MIT): the OpenXR side, the stage and the settings menu come from
+Ori and the Will of the Wisps VR (https://github.com/scubasteve2365/OriWotWVR); the winhttp.dll proxy and IL2CPP
+lookups from AI Limit VR; the diorama eye maths from Ori VR (https://github.com/scubasteve2365/OriVR); the native
+OpenXR start from Cuphead VR (https://github.com/scubasteve2365/CupheadVR).
+
+Lyall's PoPTLCFix (https://github.com/Lyall/PoPTLCFix, MIT) mapped the game's classes for post effects, UI and
+resolution. No code was copied from it.
+
+The idea of redirecting UnityPlayer's GetProcAddress lookup comes from BepInEx's Doorstop. No code was copied from it.
+
+Prince of Persia: The Lost Crown belongs to Ubisoft. This mod contains no game files.
